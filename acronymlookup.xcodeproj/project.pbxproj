@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3DC192360D4CD6B0DF9E372 /* libPods-acronymlookup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FAFEF84E6B1BAB7CA6FD2E /* libPods-acronymlookup.a */; };
+		FD90FDD41B44B451003EC883 /* ZTTextFieldLabeled.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD90FDD31B44B451003EC883 /* ZTTextFieldLabeled.xib */; };
+		FD90FDD71B4590E9003EC883 /* ZTTextFieldLabeled.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90FDD61B4590E9003EC883 /* ZTTextFieldLabeled.m */; };
+		FD90FDDB1B459658003EC883 /* AcromineClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90FDDA1B459658003EC883 /* AcromineClient.m */; };
+		FD90FDE01B4A0BB2003EC883 /* ZTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90FDDF1B4A0BB2003EC883 /* ZTHelper.m */; };
+		FD90FDE31B4A0D49003EC883 /* AcromineSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90FDE21B4A0D49003EC883 /* AcromineSearchResult.m */; };
+		FD90FDE61B4ABA88003EC883 /* ZTSimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90FDE51B4ABA88003EC883 /* ZTSimpleCell.m */; };
 		FDCE4E5E1B44A9200074C041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCE4E5D1B44A9200074C041 /* main.m */; };
 		FDCE4E611B44A9200074C041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCE4E601B44A9200074C041 /* AppDelegate.m */; };
 		FDCE4E641B44A9200074C041 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCE4E631B44A9200074C041 /* ViewController.m */; };
@@ -27,6 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180D7FB322AAF15644C20FD8 /* Pods-acronymlookup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acronymlookup.release.xcconfig"; path = "Pods/Target Support Files/Pods-acronymlookup/Pods-acronymlookup.release.xcconfig"; sourceTree = "<group>"; };
+		24FAFEF84E6B1BAB7CA6FD2E /* libPods-acronymlookup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-acronymlookup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC49528111257ACFB9539209 /* Pods-acronymlookup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acronymlookup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-acronymlookup/Pods-acronymlookup.debug.xcconfig"; sourceTree = "<group>"; };
+		FD90FDD31B44B451003EC883 /* ZTTextFieldLabeled.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTTextFieldLabeled.xib; sourceTree = "<group>"; };
+		FD90FDD51B4590E9003EC883 /* ZTTextFieldLabeled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTextFieldLabeled.h; sourceTree = "<group>"; };
+		FD90FDD61B4590E9003EC883 /* ZTTextFieldLabeled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTextFieldLabeled.m; sourceTree = "<group>"; };
+		FD90FDD91B459658003EC883 /* AcromineClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcromineClient.h; sourceTree = "<group>"; };
+		FD90FDDA1B459658003EC883 /* AcromineClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcromineClient.m; sourceTree = "<group>"; };
+		FD90FDDE1B4A0BB2003EC883 /* ZTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHelper.h; sourceTree = "<group>"; };
+		FD90FDDF1B4A0BB2003EC883 /* ZTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHelper.m; sourceTree = "<group>"; };
+		FD90FDE11B4A0D49003EC883 /* AcromineSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcromineSearchResult.h; sourceTree = "<group>"; };
+		FD90FDE21B4A0D49003EC883 /* AcromineSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcromineSearchResult.m; sourceTree = "<group>"; };
+		FD90FDE41B4ABA88003EC883 /* ZTSimpleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSimpleCell.h; sourceTree = "<group>"; };
+		FD90FDE51B4ABA88003EC883 /* ZTSimpleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSimpleCell.m; sourceTree = "<group>"; };
 		FDCE4E581B44A9200074C041 /* acronymlookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acronymlookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCE4E5C1B44A9200074C041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCE4E5D1B44A9200074C041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DC192360D4CD6B0DF9E372 /* libPods-acronymlookup.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +82,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FE930E927C7FAB1E60C1563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24FAFEF84E6B1BAB7CA6FD2E /* libPods-acronymlookup.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7CC7650FC5EBB7CFFA0DC20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC49528111257ACFB9539209 /* Pods-acronymlookup.debug.xcconfig */,
+				180D7FB322AAF15644C20FD8 /* Pods-acronymlookup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD90FDD01B44AD1F003EC883 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD90FDD31B44B451003EC883 /* ZTTextFieldLabeled.xib */,
+				FD90FDD51B4590E9003EC883 /* ZTTextFieldLabeled.h */,
+				FD90FDD61B4590E9003EC883 /* ZTTextFieldLabeled.m */,
+				FD90FDE41B4ABA88003EC883 /* ZTSimpleCell.h */,
+				FD90FDE51B4ABA88003EC883 /* ZTSimpleCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FD90FDD11B44AD36003EC883 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD90FDE11B4A0D49003EC883 /* AcromineSearchResult.h */,
+				FD90FDE21B4A0D49003EC883 /* AcromineSearchResult.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FD90FDD81B4595F0003EC883 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FD90FDD91B459658003EC883 /* AcromineClient.h */,
+				FD90FDDA1B459658003EC883 /* AcromineClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		FDCE4E4F1B44A9200074C041 = {
 			isa = PBXGroup;
 			children = (
 				FDCE4E5A1B44A9200074C041 /* acronymlookup */,
 				FDCE4E741B44A9210074C041 /* acronymlookupTests */,
 				FDCE4E591B44A9200074C041 /* Products */,
+				F7CC7650FC5EBB7CFFA0DC20 /* Pods */,
+				9FE930E927C7FAB1E60C1563 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +152,13 @@
 		FDCE4E5A1B44A9200074C041 /* acronymlookup */ = {
 			isa = PBXGroup;
 			children = (
+				FD90FDD81B4595F0003EC883 /* API */,
+				FD90FDD11B44AD36003EC883 /* Models */,
+				FD90FDD01B44AD1F003EC883 /* Views */,
 				FDCE4E5F1B44A9200074C041 /* AppDelegate.h */,
 				FDCE4E601B44A9200074C041 /* AppDelegate.m */,
+				FD90FDDE1B4A0BB2003EC883 /* ZTHelper.h */,
+				FD90FDDF1B4A0BB2003EC883 /* ZTHelper.m */,
 				FDCE4E621B44A9200074C041 /* ViewController.h */,
 				FDCE4E631B44A9200074C041 /* ViewController.m */,
 				FDCE4E651B44A9200074C041 /* Main.storyboard */,
@@ -126,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDCE4E7B1B44A9210074C041 /* Build configuration list for PBXNativeTarget "acronymlookup" */;
 			buildPhases = (
+				4DB4EEFC9663D201EB4E91D6 /* Check Pods Manifest.lock */,
 				FDCE4E541B44A9200074C041 /* Sources */,
 				FDCE4E551B44A9200074C041 /* Frameworks */,
 				FDCE4E561B44A9200074C041 /* Resources */,
+				0536AC70C79530EEA5913F4D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +280,7 @@
 				FDCE4E671B44A9200074C041 /* Main.storyboard in Resources */,
 				FDCE4E6C1B44A9200074C041 /* LaunchScreen.xib in Resources */,
 				FDCE4E691B44A9200074C041 /* Images.xcassets in Resources */,
+				FD90FDD41B44B451003EC883 /* ZTTextFieldLabeled.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +293,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0536AC70C79530EEA5913F4D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acronymlookup/Pods-acronymlookup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB4EEFC9663D201EB4E91D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDCE4E541B44A9200074C041 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FDCE4E641B44A9200074C041 /* ViewController.m in Sources */,
+				FD90FDE61B4ABA88003EC883 /* ZTSimpleCell.m in Sources */,
+				FD90FDE31B4A0D49003EC883 /* AcromineSearchResult.m in Sources */,
 				FDCE4E611B44A9200074C041 /* AppDelegate.m in Sources */,
 				FDCE4E5E1B44A9200074C041 /* main.m in Sources */,
+				FD90FDE01B4A0BB2003EC883 /* ZTHelper.m in Sources */,
+				FD90FDDB1B459658003EC883 /* AcromineClient.m in Sources */,
+				FD90FDD71B4590E9003EC883 /* ZTTextFieldLabeled.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +464,7 @@
 		};
 		FDCE4E7C1B44A9210074C041 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC49528111257ACFB9539209 /* Pods-acronymlookup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = acronymlookup/Info.plist;
@@ -357,6 +475,7 @@
 		};
 		FDCE4E7D1B44A9210074C041 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180D7FB322AAF15644C20FD8 /* Pods-acronymlookup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = acronymlookup/Info.plist;
@@ -418,6 +537,7 @@
 				FDCE4E7D1B44A9210074C041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDCE4E7E1B44A9210074C041 /* Build configuration list for PBXNativeTarget "acronymlookupTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +546,7 @@
 				FDCE4E801B44A9210074C041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
