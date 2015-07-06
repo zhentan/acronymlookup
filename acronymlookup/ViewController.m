@@ -27,6 +27,9 @@
     [super viewDidLoad];
     self.searchBox.label.text = @"ACRONYM";
     self.searchBox.textField.placeholder = @"Enter Term to Look Up Here";
+    self.searchBox.textField.returnKeyType = UIReturnKeySearch;
+    self.searchBox.textField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    self.searchBox.textField.delegate = self;
     [self.searchBox.button setTitle:@"Seach" forState:UIControlStateNormal];
     __weak ZTTextFieldLabeled *weaksb = self.searchBox;
     weaksb.buttonActionBlock = ^{
@@ -36,8 +39,8 @@
             [self searchAcronym:weaksb.textField.text];
     };
     
-    self.tableView.estimatedRowHeight = 44.0;
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
+//    self.tableView.estimatedRowHeight = 44.0;
+//    self.tableView.rowHeight = UITableViewAutomaticDimension;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,6 +72,14 @@
                             });
                        }
      ];
+}
+
+#pragma mark - Text Field delegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self.view endEditing:YES];
+    [self.searchBox.buttonActionBlock invoke];
+    return YES;
 }
 
 #pragma mark - Table view data source
