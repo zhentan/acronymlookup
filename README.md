@@ -1,5 +1,5 @@
 # acronymlookup
-Simple iOS client for the Acromine REST Service
+Simple single view application iOS client for the Acromine REST Service
 
 ### Installation
 

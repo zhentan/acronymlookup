@@ -38,9 +38,6 @@
         else
             [self searchAcronym:weaksb.textField.text];
     };
-    
-//    self.tableView.estimatedRowHeight = 44.0;
-//    self.tableView.rowHeight = UITableViewAutomaticDimension;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -93,12 +90,5 @@
     cell.label.text = self.longforms[indexPath.row][@"lf"];
     return cell;
 }
-
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
-        cell.layoutMargins = UIEdgeInsetsZero;
-    }
-}
-
 
 @end
